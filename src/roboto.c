@@ -169,7 +169,7 @@ void handle_init(AppContextRef ctx)
 
     font_date = fonts_load_custom_font(res_d);
     font_hour = fonts_load_custom_font(res_h);
-    font_minute = fonts_load_custom_font(res_m);
+    font_minute = fonts_load_custom_font(res_h);
 
     time_layer_init(&time_layer, window.layer.frame);
     time_layer_set_text_color(&time_layer, GColorWhite);
